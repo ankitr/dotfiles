@@ -53,3 +53,6 @@ brew install readline
 brew install hub
 brew install wget
 brew install tree
+brew install ack
+brew tap phinze/homebrew-cask
+brew install brew-cask
