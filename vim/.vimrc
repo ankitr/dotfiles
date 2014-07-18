@@ -3,7 +3,6 @@ set guifont=Source\ Code\ Pro\ for\ Powerline:h14
 syntax on
 colorscheme default
 set number
-set expandtab
 set tabstop=4
 set smartindent
 
