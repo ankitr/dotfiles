@@ -5,6 +5,7 @@ colorscheme default
 set number
 set expandtab
 set tabstop=4
+set smartindent
 
 set laststatus=2
 
