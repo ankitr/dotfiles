@@ -6,6 +6,16 @@ set number
 set tabstop=4
 set smartindent
 
+augroup markdown
+
+" remove previous autocmds
+    autocmd!
+
+" set every new or read *.md buffer to use the markdown filetype 
+    autocmd BufRead,BufNew *.md setf markdown
+
+augroup END
+
 set laststatus=2
 
 set t_Co=256
