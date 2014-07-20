@@ -5,6 +5,7 @@ colorscheme default
 set number
 set tabstop=4
 set smartindent
+set backspace=indent,eol,start
 
 set laststatus=2
 
