@@ -27,16 +27,16 @@ curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | 
 
 ### Unpack the RCs ###
 echo "Setting up .vimrc"
-cp ../vim/.vimrc $HOME/.vimrc
+cp ../vim/.vimrc ~/.vimrc
 
 echo "Setting up .zshrc"
-cp ../zsh/.zshrc $HOME/.zshrc
+cp ../zsh/.zshrc ~/.zshrc
 
 
 ### Install helpful things ###
 echo "Installing Git"
 brew install git
-cp ../git/.gitconfig $HOME/.gitconfig
+cp ../git/.gitconfig ~/.gitconfig
 
 echo "Installing languages."
 brew install python
