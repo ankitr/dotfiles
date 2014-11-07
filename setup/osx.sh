@@ -45,7 +45,6 @@ brew install ruby
 brew install plt-racket
 
 echo "Installing utilities."
-brew install fish
 brew install googlecl
 brew install fontforge
 brew install docker
